@@ -2,7 +2,14 @@
   "name": "liri-node-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "keys.js",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "node-spotify-api": "^1.0.7",
+    "twit": "^2.2.9",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,16 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/Jim88star/liri-node-app.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Jim Gardner",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jim88star/liri-node-app/issues"
   },
-  "homepage": "https://github.com/Jim88star/liri-node-app#readme",
-  "dependencies": {
-    "dotenv": "^5.0.1",
-    "node-spotify-api": "^1.0.7",
-    "twitter": "^1.7.1"
-  }
+  "homepage": "https://github.com/Jim88star/liri-node-app#readme"
 }
